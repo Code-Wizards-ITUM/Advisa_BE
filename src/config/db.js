@@ -4,8 +4,10 @@ require('dotenv').config();
 const pool = mysql.createPool({
   host: "localhost",
   user: "root",
-  database: "book_treasury",
-  password:process.env.DB_PASS
+  database: "advisa",
+  password:process.env.DB_PASS,
+  dateStrings: true 
 });
+
 
 module.exports=pool.promise();
