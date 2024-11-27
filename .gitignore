@@ -1,4 +1,4 @@
-src/config/mail.js
+# src/config/mail.js
 .gitignore
 # Logs
 logs
